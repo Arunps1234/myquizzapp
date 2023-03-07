@@ -1,6 +1,6 @@
 export const questions = [
     {
-      questionText: " In which year was Mysore renamed Karnataka?",
+      questionText: " In which year was Mysore renamed as Karnataka?",
       answers: [
         {
           answerText: "1972",
