@@ -18,7 +18,7 @@ function App() {
 
   const[username, setUsername]=useState('')
   return (
-<>
+<React.Fragment>
 {showStartingpage && <Startingpage
 setStartingpage={setStartingpage}
 setShowQuestionpage={setShowQuestionpage}
@@ -52,7 +52,7 @@ setUsername={setUsername}
 />}
 
 
-</>
+</React.Fragment>
   );
 }
 
